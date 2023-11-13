@@ -6,26 +6,19 @@
 
 }
 
-button:hover {
-    background-color: rgb(15, 126, 223);
-    color: black;
-    transform: scaleY(1.5);
-    transition: 0.5s;
-}
-
 html {
 
     overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
     width: 100vw;
     position: relative;
+    height: 100vh;
+    user-select: none;
 }
 
 a {
     text-decoration: none;
 
-    color: white
 }
 
 ul,
